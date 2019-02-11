@@ -1,0 +1,146 @@
+{
+    "code": 1,
+    "msg": "获取成功",
+    "data": {
+        "search": [
+            {
+                "url": "http://www.scjuchuang.com/#/Chanpinzhongxin?&title=%E6%84%9F%E5%86%92%E7%81%B5%E9%A2%97%E7%B2%92",
+                "title": "感冒灵"
+            },
+            {
+                "url": "http://www.scjuchuang.com/#/Chanpinzhongxin?&title=%E9%98%BF%E8%83%B6",
+                "title": "阿胶"
+            },
+            {
+                "url": "#/Chanpinzhongxin?&zjzx=1&pid=12",
+                "title": "中药"
+            },
+            {
+                "url": "http://www.scjuchuang.com/#/Shangpinxiangqing?&id=19821",
+                "title": "西替利嗪滴剂"
+            },
+            {
+                "url": "http://www.scjuchuang.com/#/Shangpinxiangqing?&id=29447",
+                "title": "复方天麻颗粒"
+            },
+            {
+                "url": "http://www.scjuchuang.com/#/all/Spikeactivity?&id=322",
+                "title": "效期专区"
+            }
+        ],
+        "adv": [
+            {
+                "image": "",
+                "url": "all/person/Balance",
+                "user_type": "0"
+            }
+        ],
+        "banner": [
+            {
+                "image": "http://image.scjuchuang.com/image/1548835096259.png?x-oss-process=style/normal",
+                "title": "",
+                "url": "all/Spikeactivity?&id=330",
+                "user_type": "1"
+            },
+            {
+                "image": "http://image.scjuchuang.com/image/1545361454943.png?x-oss-process=style/normal",
+                "title": "",
+                "url": "Chanpinzhongxin?&zjzx=1&pid=12",
+                "user_type": "0"
+            }
+        ],
+        "banner_adv": [
+            {
+                "image": "http://image.scjuchuang.com/image/1547697505526.png?x-oss-process=style/normal",
+                "url": "lingqu",
+                "user_type": "0"
+            },
+            {
+                "image": "http://image.scjuchuang.com/image/3c95b2a8cfec8cec6e6487a06e43340a.png?x-oss-process=style/normal",
+                "url": "/Denglu",
+                "user_type": "0"
+            }
+        ],
+        "notice": [
+            {
+                "id": 564,
+                "title": "做到这一点，你人生的色彩可以炫彩夺目"
+            },
+            {
+                "id": 563,
+                "title": "单体药店转型智慧药店，这些你需要知道"
+            },
+            {
+                "id": 562,
+                "title": "30条药店陈列技巧的专业用语，医药人必看"
+            },
+            {
+                "id": 561,
+                "title": "咳嗽有痰,就用羧甲司坦"
+            },
+            {
+                "id": 560,
+                "title": "2019 中国民营医疗三大关键词！淘汰、回归、创新"
+            },
+            {
+                "id": 515,
+                "title": "2018年11月表彰大会"
+            }
+        ],
+        "industry": [
+            {
+                "id": 567,
+                "title": "卫健委发文，全省采购这些药！药店备货"
+            },
+            {
+                "id": 555,
+                "title": "急需临床药品试点项目在海南启动"
+            },
+            {
+                "id": 554,
+                "title": "互联网+健康医疗正在推行"
+            },
+            {
+                "id": 553,
+                "title": "​朋友，你听说过诈骗医保吗？"
+            },
+            {
+                "id": 552,
+                "title": "迈瑞为何无理由解约300余人？"
+            },
+            {
+                "id": 551,
+                "title": "又有医疗器械企业上榜中国市值500强"
+            }
+        ],
+        "spcarea": [
+            {
+                "image": "http://image.scjuchuang.com/image/1547692406664.png?x-oss-process=style/normal",
+                "url": "all/person/Balance",
+                "user_type": "2"
+            },
+            {
+                "image": "http://image.scjuchuang.com/image/1547692413836.png?x-oss-process=style/normal",
+                "url": "all/Spikeactivity?&id=330",
+                "user_type": "1"
+            },
+            {
+                "image": "http://image.scjuchuang.com/image/1547692419288.png?x-oss-process=style/normal",
+                "url": "Chanpinzhongxin?&title=注射",
+                "user_type": "1"
+            }
+        ],
+        "spcadv": [
+            {
+                "image": "",
+                "url": "",
+                "user_type": "2"
+            },
+            {
+                "image": "",
+                "url": "",
+                "user_type": "0"
+            }
+        ]
+    }
+}
