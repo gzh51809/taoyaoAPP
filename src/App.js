@@ -55,13 +55,14 @@ class App extends Component {
 }
   render() {
     return (
-      <div style={this.state.fullScreen ? { position: 'fixed', height: '100%', width: '100%', bottom: 0 } : { position: 'fixed', height: '100%', width: '100%', bottom: 0 }}>
+      <div>
+      <div  className="app">
         <TabBar
           unselectedTintColor="#949494"
           tintColor="#33A3F4"
           barTintColor="white"
           hidden={this.state.hidden}
-          
+          noRenderContent
         >
       {
         this.state.tab.map(item => {
@@ -96,13 +97,6 @@ class App extends Component {
                         }
                     }}
                 >
-                <Switch>
-                  <Route path="/home" component={Home}/>
-                  <Route path="/list" component={List}/>
-                  <Route path="/Log" component={Log}/>
-                  <Route path="/shop" component={Shop}/>
-                  <Redirect from={'/'} to={'/home'} exact/>
-                </Switch>
                 </TabBar.Item>
             )
         })
@@ -112,6 +106,14 @@ class App extends Component {
         
       </div>
     
+                <Switch>
+                  <Route path="/home" component={Home}/>
+                  <Route path="/list" component={List}/>
+                  <Route path="/Log" component={Log}/>
+                  <Route path="/shop" component={Shop}/>
+                  <Redirect from={'/'} to={'/home'} exact/>
+                </Switch>
+                </div>
     );
   }
 }
