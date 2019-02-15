@@ -46,3 +46,41 @@ header{
         
     }
 }
+.sortLef_l{
+    padding-top:30px;
+    float: right;
+    width: 300px;
+    ul{
+        list-style: none;
+        margin-left: -50px;
+        li{
+            h3{
+                padding: 0 0.475rem;
+                height: 30px;
+                background-size: .375rem .375rem;
+                font-size:13px;
+                line-height: 30px;
+                margin-top: .375rem;
+            }
+            div{
+                background: #fff;
+                span{
+                    display: inline-block;
+                    width: 30.3%;
+                    font-size: 12px;
+                    border: 1px solid #d6d7dc;
+                    margin: 0 1.5% .275rem 1.5%;
+                    text-align: center;
+                    padding: .22rem .08rem;
+                    border-radius: .4rem;
+                    color: #666;
+                    line-height: 1;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    white-space: nowrap;
+                    height: 15px;
+                }
+            }
+        }
+    }
+}

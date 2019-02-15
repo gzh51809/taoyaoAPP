@@ -8,6 +8,8 @@ import Home from './components/Home';
 import List from './components/List';
 import Log from './components/Log';
 import Shop from './components/Shop';
+import Datail from './components/Detail';
+import Register from './components/Register';
 class App extends Component {
   constructor() {
     super();
@@ -111,6 +113,8 @@ class App extends Component {
                   <Route path="/list" component={List}/>
                   <Route path="/Log" component={Log}/>
                   <Route path="/shop" component={Shop}/>
+                  <Route path="/datail" component={Datail}/>
+                  <Route path="/register" component={Register}/> 
                   <Redirect from={'/'} to={'/home'} exact/>
                 </Switch>
                 </div>

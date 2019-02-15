@@ -1,0 +1,36 @@
+header{
+    background: #018BE7;
+    color: #fff;
+    height: 45px;
+    h1{
+        font-size: 17px;
+        font-weight: 500;
+        line-height: 44px;
+        position: absolute;
+        display: block;
+        width: 100%;
+        margin: 0 -10px;
+        padding: 0;
+        text-align: center;
+        white-space: nowrap;
+        right: 40px;
+        left: 40px;
+        display: inline-block;
+        overflow: hidden;
+        width: auto;
+        margin: 0;
+        text-overflow: ellipsis;
+        
+    }
+    span{
+            font-size: 10px;
+            margin: 0.3rem 0.2rem 0 0;
+            font-weight: 500;
+            position: relative;
+            top:13px;
+            left: 330px;
+            width:30px;
+            height: 30px;
+            display: inline-block;
+        }
+}

@@ -1,8 +1,9 @@
 import React from 'react';
 import './home.scss';
-import { Carousel, WingBlank } from 'antd-mobile';
+import { Carousel } from 'antd-mobile';
 import axios from 'axios';
 import { SearchBar} from 'antd-mobile';
+import {withRouter} from 'react-router-dom';
 class Home extends React.Component{
     constructor(){
         super();
@@ -132,7 +133,9 @@ class Home extends React.Component{
             {
                 this.state.dayrecom.map(item=>{
                 return(
-                    <li><img src={item.image} /></li>
+                    <li onClick={()=>{
+                        this.props.history.push('/datail')
+                    }}><img src={item.image} /></li>
                 )
             })
         }
@@ -200,5 +203,6 @@ class Home extends React.Component{
         )
     }
 }
-
+Home= withRouter(Home);
 export default Home;
+
